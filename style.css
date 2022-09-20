@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   align-items: center;
-  padding: 8px;
+  justify-content: space-between;
   
 }
 
@@ -59,4 +59,14 @@ ul {
 
     display: flex;
     justify-content: space-around   ;
+    padding:8px;
+    gap: 16px;
+}
+
+.right-items{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    gap: 16px ;
 }
